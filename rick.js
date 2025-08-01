@@ -15,14 +15,15 @@ image.src = "./unnamed.png";
 const link = document.getElementById("myLink");
 const linkImg =
   document.getElementById("linkImage");
-link.href = "https://new-url.com";
+link.href = "https://uiverse.io/elements";
+link.style.display = "flex";
 linkImg.setAttribute(
   "alt",
   "Опис нового зображення"
 );
+linkImg.style.width = "200px";
 
 // 4.
 const list = document.getElementById("myList");
 const firstItem = list.querySelector("li");
-firstItem.textContent =
-  "Новий текст першого елемента";
+firstItem.textContent = "Sie";
